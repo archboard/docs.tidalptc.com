@@ -3,7 +3,6 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   mode: 'jit',
-  important: true,
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
@@ -18,7 +17,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        gray: colors.coolGray,
+        gray: colors.gray,
         primary: {
           '50': '#edfafa',
           '100': '#d5f5f6',
@@ -59,6 +58,7 @@ module.exports = {
               '&:hover': {
                 color: theme('colors.primary.400'),
               },
+              'text-decoration': 'none',
             },
             '.prose a.edit, .tag a': {
               color: theme('colors.gray.300'),

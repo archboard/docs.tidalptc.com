@@ -2,18 +2,15 @@ const colors = require('tailwindcss/colors')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+  mode: 'jit',
   important: true,
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: {
-    enabled: true,
-    content: ["_site/**/*.html"],
-    options: {
-      safelist: [],
-    },
-  },
+  purge: [
+    "**/*.njk",
+  ],
   darkMode: 'class',
   theme: {
     container: {
@@ -53,18 +50,18 @@ module.exports = {
           ...defaultTheme.fontFamily.sans,
         ]
       },
-      typography: {
+      typography: (theme) => ({
         DEFAULT: {
           css: {
             maxWidth: '100%',
             a: {
-              color: '#1D4ED8',
+              color: theme('colors.primary.500'),
               '&:hover': {
-              color: '#1E3A8A',
+                color: theme('colors.primary.400'),
               },
             },
             '.prose a.edit, .tag a': {
-              color: '#333',
+              color: theme('colors.gray.300'),
               'text-decoration': 'none',
             },
             'ul.footer-nav': {
@@ -85,7 +82,7 @@ module.exports = {
             },
           },
         },
-      }
+      })
     },
   },
   variants: {},

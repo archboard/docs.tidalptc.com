@@ -51,16 +51,6 @@ module.exports = function(eleventyConfig) {
     return '<img class="icon" src="'+url+'" alt="'+title+'" />';
   });
 
-  // Button shortcode -- experimental
-  // eleventyConfig.addLiquidShortcode("button", function(title,url) {
-  //   return '<a class="button" href="'+url+'">'+title+'</a>';
-  // });
-
-
-  // Tailwind pass through and watch target
-  eleventyConfig.addWatchTarget("./_tmp/style.css");
-  eleventyConfig.addPassthroughCopy({ "./_tmp/style.css": "./style.css" });
-
   // Alpine.js pass through
   eleventyConfig.addPassthroughCopy({
     "./node_modules/alpinejs/dist/alpine.js": "./js/alpine.js",

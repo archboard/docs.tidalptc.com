@@ -1,0 +1,21 @@
+{
+  "name": "Tidal PTC",
+  "subtitle": "Manage your parent-teacher conferences with confidence.",
+  "description": "Tidal PTC is a parent-teacher conference scheduling app made by Archboard",
+  "footer": "Made by Archboard",
+  "url": "https://docs.tidalptc.com",
+  "githubUrl": "https://github.com/archboard/docs.tidalptc.com",
+  "githubBranch": "main",
+  "navigationStyle": "vertical",
+  "emoji": "💥",
+  "enableSearch": true,
+  "enableDarkMode": true,
+  "enableEditButton": true,
+  "enableDatestamp": true,
+  "enableGithubLink": true,
+  "enableContact": false,
+  "enableNetlifyCMS": false,
+  "enableComments": false,
+  "enableEncryption": false,
+  "enablePageNavigation": true
+}

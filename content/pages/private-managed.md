@@ -2,7 +2,7 @@
 title: Private Managed setup
 date: Last Modified
 permalink: /setup/pri/
-metaDescription: Get your cloud plan set up.
+metaDescription: Get your cloud plan subscription up.
 eleventyNavigation:
   key: Private Managed setup
   parent: Intro

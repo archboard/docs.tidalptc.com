@@ -9,6 +9,8 @@ module.exports = {
   },
   purge: [
     "**/*.njk",
+    "content/**/*.md",
+    ".eleventy.js",
   ],
   darkMode: 'class',
   theme: {

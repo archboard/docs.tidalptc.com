@@ -3,7 +3,7 @@
     "watch:tailwind": "tailwind -c styles/tailwind.config.js -i styles/tailwind.css -o _site/style.css --watch",
     "serve": "eleventy --serve",
     "dev": "npm-run-all --parallel clean serve watch:tailwind",
-    "prod": "npm-run-all --parallel clean build build:tailwind",
+    "prod": "npm-run-all clean build build:tailwind",
     "build": "ELEVENTY_PRODUCTION=true eleventy",
     "build:tailwind": "tailwind -c styles/tailwind.config.js -i styles/tailwind.css -o _site/style.css -m",
     "watch": "eleventy --watch",

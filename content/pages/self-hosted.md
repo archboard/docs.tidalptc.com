@@ -39,6 +39,32 @@ Before getting started, you'll need to make sure you have your DNS configured co
 
 3. You will need to download the Tidal PTC PowerSchool plugin. There are two options for plugins, depending on your version of PowerSchool. Version 20.11 of PowerSchool introduced a new way to authenticate using single sign on (SSO). After downloading the appropriate version, you can [install the plugin](/setup/plugin-install/) on your PowerSchool version.
 
-4. Once the installation of Tidal PTC on your server and the installation of the PowerSchool plugin is finished and enabled, you need to finish the Tidal PTC application configuration. Visit `https://<your-tidal-ptc-domain>/install to complete installation.
+4. Once the installation of Tidal PTC on your server and the installation of the PowerSchool plugin is finished and enabled, you need to finish the Tidal PTC application configuration. Visit `https://[your-tidal-ptc-domain]/install` to complete installation.
 
-    For your convenience, your Archboard subscription instructions page will display some of the information needed on the Tidal PTC installation page, such as license and PowerSchool API details.
+    For your convenience, your Archboard subscription instructions page will display some of the information needed on the Tidal PTC installation page, such as license and PowerSchool API details. Once the initial data is saved you will be asked which schools from your PowerSchool instance you would like to integrate into Tidal PTC.
+
+    Saving the selection will automatically pull in the student, teacher and enrollment information. Self-hosted has additional configuration needed before you're fully ready.
+
+## Configuration
+
+After saving the school selection, you will be taken to Tidal PTC's district/tenant settings. These settings apply to all the schools on your Tidal PTC server.
+
+### System settings
+
+The system settings shouldn't change too often. You won't have the change the PowerSchool API client ID/secret unless the Tidal PTC PowerSchool plugin gets deleted. Two settings that may change more often are the authentication settings.
+
+Tidal PTC uses PowerSchool for authentication, but can also use traditional username/password credentials. If the "Allow password logins" option is enabled, users can save a password for their account to log in without PowerSchool.
+
+If your PowerSchool is at version 20.11 or newer, there are new SSO features added that make logging in easier. The 'Show "Sign in with PowerSchool" button' option will show a button on the login page that will use PowerSchool's new OpenID Connect functionality.
+
+### Email configuration
+
+Tidal PTC sends notification emails, so you will need to have an SMTP account from which Tidal PTC can send emails. You are free to choose the account address and name, but you are responsible for creating the account in your organization's email provider.
+
+After saving the email configuration settings, there is a button towards the top of the page that allows you to test your SMTP settings. It will attempt to send an email to the address associated with your user account.
+
+### School selection and sync
+
+There are two additional options for your district's schools. The "Sync Schools" button will sync each school's details from PowerSchool, such as name and grade information.
+
+The last button on the right will take you to the school selection page, where you can chooose to select more or less schools that will be available to use.

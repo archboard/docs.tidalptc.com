@@ -10,6 +10,8 @@ eleventyNavigation:
   title: Self-hosted setup
 ---
 
+## Server requirements
+
 Self-hosted Tidal PTC gives you the flexibility and performance benefits of your own hardware. Installation is as simple as running a single command, but first the server has to be created. Below are the requirements for installing and running Tidal PTC:
 
 - Ubuntu LTS 20.04
@@ -18,6 +20,8 @@ A domain name and DNS ready. You will need your domain name to point to your IP 
 Depending on your district size and anticipated load, Tidal PTC only needs 1GB memory/25GB disk/1 CPU, but - 2GB memory and 2 CPU is preferred.
 - SSH access through port 22.
 - It's not a requirement, but it's a good security practice to limit access to the server by SSH key only.
+
+## Installation
 
 Once you have purchased the Self-Hosted plan, you will need to provide a few details to get your subscription up and going. The following steps match each step in your Archboard subscription instructions page.
 
@@ -37,4 +41,4 @@ Before getting started, you'll need to make sure you have your DNS configured co
 
 4. Once the installation of Tidal PTC on your server and the installation of the PowerSchool plugin is finished and enabled, you need to finish the Tidal PTC application configuration. Visit `https://<your-tidal-ptc-domain>/install to complete installation.
 
-    For your convenience, your Archboard subscription instructions page will display some of the information needed on the installation page.
+    For your convenience, your Archboard subscription instructions page will display some of the information needed on the Tidal PTC installation page, such as license and PowerSchool API details.

@@ -47,7 +47,7 @@ Before getting started, you'll need to make sure you have your DNS configured co
 
 ## Configuration
 
-After saving the school selection, you will be taken to Tidal PTC's district/tenant settings. These settings apply to all the schools on your Tidal PTC server.
+After saving the school selection, you will be taken to Tidal PTC's district/tenant settings. These settings apply to all the schools on your Tidal PTC server. Users with the `district admin` role can edit the system settings.
 
 ### System settings
 

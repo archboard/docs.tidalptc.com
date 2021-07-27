@@ -21,6 +21,12 @@ After clicking the launcher button, a menu will slide out from the left. Click o
 
 The process is the same for teachers, admins, and guardians.
 
+### A note about usernames
+
+In PowerSchool, a username can be pretty much anything. It can include spaces and special characters. While this is convenient in PowerSchool, it doesn't always work well with SSO functionality. The reason a username with something considered a "special character" (e.g. a space) doesn't work well is because when PowerSchool sends over details, special characters have to be [URL encoded](https://www.urlencoder.io/learn/).
+
+PowerSchool does not do a good job at this, and the username it sends Tidal PTC is invalid and fails the SSO authentication flow. If a user is communicating a failed SSO, the first thing to do is to check the username of the staff or guardian. Changing the username to something like an email address will likely fix the issue and is a norm when it comes to having unique usernames in web applications, such as Tidal PTC.
+
 ## Using a username and password
 
 Depending on your district's setup, you may also be able to use your email and a password you configure for your Tidal PTC account. After you have created a password for your account, you may be able to use this method without having to log in to PowerSchool first.

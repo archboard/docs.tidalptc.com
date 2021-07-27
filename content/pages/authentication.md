@@ -5,7 +5,7 @@ permalink: /authentication/
 metaDescription: Log in to Tidal PTC.
 eleventyNavigation:
   key: Authentication
-  order: 50
+  order: 100
   title: Authentication
 ---
 
@@ -30,3 +30,7 @@ Depending on your district's setup, you may also be able to use your email and a
 If you have a PowerSchool version of 20.11 and above, you can also log in to PowerSchool using the "Sign in with PowerSchool" button on the login page.
 
 ![PowerSchool single sign on](/content/images/login-sso.png)
+
+If you're already logged in to PowerSchool as an admin, teacher, or guardian, you will be seamlessly logged in to Tidal PTC. If you're not logged in, you will be prompted to log in as a teacher, admin, or guardian. Once you log in to PowerSchool you will be redirected back to Tidal PTC successfully authenticated.
+
+![PowerSchool single sign on](/content/images/ps-sso.png)

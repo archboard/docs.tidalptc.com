@@ -97,7 +97,7 @@
     @apply text-gray-900 dark:text-gray-100;
   }
   nav ul li a.active {
-    @apply font-semibold;
+    @apply font-bold;
   }
   nav.toc ol li {
     @apply pt-2 !important

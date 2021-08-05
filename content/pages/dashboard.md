@@ -11,7 +11,7 @@ eleventyNavigation:
 
 For teachers, your dashboard has a snapshot of your reservations and a way to export your reservations as an Excel file.
 
-![Teacher's Dasbhoard](/content/images/teacher-dashboard.png)
+![Teacher's Dashboard](/content/images/teacher-dashboard.png)
 
 The calendar can be viewed as a single day, three days or a week (7 days). You can use the arrow on the right to move the days/weeks forward or backward in time.
 

@@ -12,12 +12,12 @@
   }
 
   /* Set up some default image behavior for nicer images */
-  img {
-    @apply w-auto  shadow-md border-2 border-transparent !important
+  /* img {
+    @apply w-auto shadow-md border-2 border-transparent
   }
   img:hover {
     @apply border-2 border-gray-100
-  }
+  } */
   /* Overrides for Tailwind Typography prose class */
   .prose a {
     @apply dark:text-primary-400

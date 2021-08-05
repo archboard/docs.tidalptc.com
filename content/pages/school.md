@@ -10,7 +10,9 @@ eleventyNavigation:
   title: School settings
 ---
 
-If your user account has the `Change school settings` permission, you can manage the settings for the school.
+If your user account has the `Change school settings` permission, you can manage the settings for the school. You can find the settings for the school by clicking the name of the school on the settings drop down.
+
+![School settings link](/content/images/school-settings-menu.png)
 
 If your Tidal PTC instance has multiple schools and you are an admin for multiple schools, the first section will to change your current school.
 

@@ -1,30 +1,26 @@
-# Spacebook
+# Tidal PTC Documentation
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68791233-b2d6-4a86-8c42-e654e112a157/deploy-status)](https://app.netlify.com/sites/spacebook-app/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb122a9c-0f25-441e-a548-86b8d84687ff/deploy-status)](https://app.netlify.com/sites/tidal-ptc-docs/deploys)
 
-Create your own spacebook and customize it to your needs. Spacebooks are speedy to set up, free, and 100% open source. Spacebooks are modern notebooks you can use to create documentation, sketch out new ideas, build a simple website, or whatever suits your fancy. 
+
 
 ---
 
 <p align="center">
-<strong><big>Demo and documentation:</big></strong><br /> 
+<img alt="Tidal PTC by Archboard" src="https://tidalptc.com/assets/images/share.png" />
 </p>
 
 <p align="center">
-<strong>https://spacebook.app</strong> <br />
+<strong><a href="https://docs.tidalptc.com">https://docs.tidalptc.com</a></strong> <br />
 </>
-
-<p align="center">
-🙋 💥 👩🏽‍🚀 🚀 👨‍🚀 🛰️
-</p>
 
 ---
 
 ## Contributing
 
-If you want to contribute or make fixes to spacebook, it is best to fork this repository directly and submit pull requests against it. If you spot a typo on the demo/documentation site, you can also open a fork directly from the edit button on the top of each page.
+Find an error want to add something that's missed, fork this repo and submit a pull request!
 
-## Install spacebook
+## Installing locally
 
 If you want to quickly install for local testing follow the instructions below:
 
@@ -44,31 +40,26 @@ node --version
 ### Step one
 
 ```
-git clone https://github.com/broeker/spacebook
+git clone https://github.com/archboard/docs.tidalptc.com
 ```
 
 ### Step two
 
-Install the site and run an initial build command:
+Install the dependencies and start a development server and you'll be able to work on your site with hot reloads and some nice Browsersync features.
 
 ```
-cd spacebook
+# Move into the directory
+cd docs.tidalptc.com
 
+# Install dependencies
 npm install
 
-npm run build (only necessary the first time!)
+# Run the development server
+npm run dev
 ```
 
-_If you get errors here, double check your node version!_
+You should be able to visit [http://localhost:8080](http://localhost:8080/) and view the site.
 
-### Step three
+## About Archboard
 
-Now spin up your local server to see your site!
-
-```
-npm run start
-```
-
-This command will start a local server and you'll be able to work on your site with hot reloads and some nice Browsersync features. 💥
-
---- 
+[Tidal PTC](https://archboard.io/products/tidal-ptc) is a product built by [Archboard](https://archboard.io). Archboard builds applications that integrate with PowerSchool, a popular student information system.

@@ -62,3 +62,5 @@ Once you find the day and time you wish to create the time slot. Click and drag 
 Once your time slot is created, you can click on the time slot to bring up its options and have the ability to adjust the settings or delete the time slot entirely. The options will look the same as discussed above.
 
 <img alt="Adjusting a time slot settings" src="/content/images/time-slot-modal.png" class="w-full" />
+
+If you are creating time slots for a selection of teachers, editing and deleting time slots in the same "session" (i.e. not navigating to a different page), you will modify and delete the time slots for the selection. However, once you leave the session, you will need to modify the time slots individually.

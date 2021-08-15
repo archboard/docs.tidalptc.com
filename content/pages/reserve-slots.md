@@ -39,3 +39,11 @@ Once the slot has the desired settings, clicking the "Reserve Slot" button will 
 <img alt="A slot has been reserved" src="/content/images/slot-reserved.png" class="w-full" />
 
 A green checkmark will appear next to the teacher's name to indicate that a time slot has been reserved with the teacher for this student. The time slot on the calendar now contains the details of the reservation. You will also notice that you cannot reserve another time slot with the same teacher for the same student. Tidal PTC also detects a guardian's currently reserved time slots and prevents them from reserving other time slots at the same time.
+
+## Updating reservations
+
+If a time slot needs to be updated or deleted, click on the reserved time slot. It will launch the same dialog with the ability to change the reservation settings or delete the reservation. Deleting the reservation will enable it to become available to a new reservation.
+
+![Update reservation]
+
+Depending on the guardian's and teacher's notification settings, the teacher and/or the guardian will be notified of updates and cancellations.

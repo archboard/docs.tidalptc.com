@@ -1,24 +1,7 @@
-if (window.netlifyIdentity) {
-  window.netlifyIdentity.on("init", user => {
-    if (!user) {
-      window.netlifyIdentity.on("login", () => {
-        document.location.href = "/admin/";
-      });
-    }
-  });
-}
-
 document.addEventListener("DOMContentLoaded", function() {
-
   const el = document.getElementById("main");
   el.addEventListener("click", closeNavigation, false)
-
 });
-
-function logout() {
-  localStorage.removeItem("passphrase")
-  window.location.href = "/";
-}
 
 function showNavigation() {
   const navigation = document.getElementById("navigation");
@@ -44,6 +27,4 @@ function toggleLayout(state) {
       localStorage.setItem('layout', 'horizontal')
     }
   }
-
-  console.log(localStorage.getItem('layout'))
 }

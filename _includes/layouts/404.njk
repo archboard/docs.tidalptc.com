@@ -3,14 +3,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-       {% set css %}
-    {% include "_includes/assets/css/404.css" %}
-  {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
-     {% set js %}
-    {% include "_includes/assets/js/404.js" %}
-  {% endset %}
-  <script>{{ js | jsmin | safe }}</script> 
+    <link rel="stylesheet" href="/style.css?v={% version %}"/>
+    {% set css %}
+      {% include "assets/css/404.css" %}
+    {% endset %}
+    <style>{{ css | cssmin | safe }}</style>
+    {% set js %}
+      {% include "assets/js/404.js" %}
+    {% endset %}
+  <script>{{ js | jsmin | safe }}</script>
 <div class="moon"></div>
 <div class="moon__crater moon__crater1"></div>
 <div class="moon__crater moon__crater2"></div>
@@ -24,9 +25,7 @@
 
 <div class="error">
   <div class="error__title">404</div>
-  <div class="error__subtitle">Ground Control to Major Tom</div>
-  <div class="error__description">Your circuit's dead, there's something wrong</div>
-  <a href="/"><button class="error__button error__button--active">Go home</button></a>
+  <a href="/"><button class="px-5 text-lg py-2 rounded-full bg-primary-500 text-white">Go home</button></a>
 </div>
 
 <div class="astronaut">
@@ -45,11 +44,11 @@
   <div class="astronaut__foot-right"></div>
   <div class="astronaut__wrist-left"></div>
   <div class="astronaut__wrist-right"></div>
-  
+
   <div class="astronaut__cord">
     <canvas id="cord" height="500px" width="500px"></canvas>
   </div>
-  
+
   <div class="astronaut__head">
     <canvas id="visor" width="60px" height="60px"></canvas>
     <div class="astronaut__head-visor-flare1"></div>

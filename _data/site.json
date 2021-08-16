@@ -8,7 +8,7 @@
   "githubBranch": "main",
   "navigationStyle": "vertical",
   "emoji": "💥",
-  "enableSearch": true,
+  "enableSearch": false,
   "enableDarkMode": true,
   "enableEditButton": true,
   "enableDatestamp": true,

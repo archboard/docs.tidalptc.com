@@ -40,7 +40,7 @@ The next section contains the configuration for the available languages that can
 
 ## Additional settings
 
-There is a link to [manage users](/configuration/users/), sync data from PowerSchool for the school, and edit the system settings.
+There is a link to [manage users](/configuration/users/), sync data from PowerSchool for the school, and edit the [system settings](/configuration/system/).
 
 ## Data sync from PowerSchool
 

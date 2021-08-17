@@ -40,4 +40,15 @@ The next section contains the configuration for the available languages that can
 
 ## Additional settings
 
-There is a link to [manage users](/configuration/users/), sync data from PowerSchool for the school, and edit the system
+There is a link to [manage users](/configuration/users/), sync data from PowerSchool for the school, and edit the system settings.
+
+## Data sync from PowerSchool
+
+Running the school's data sync will pull data from PowerSchool:
+
+- School information (name, grade range, etc)
+- Students (having `enroll_status` equal to `0`)
+- Courses (name and number)
+- Sections
+- Student section enrollment (active at the time of sync)
+- Teachers who are the **lead teacher** on a section

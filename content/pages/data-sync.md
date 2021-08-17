@@ -1,13 +1,13 @@
 ---
-title: Data sync
+title: User data sync
 date: Last Modified
 permalink: /authentication/data-sync/
 metaDescription: Tidal PTC syncs data from PowerSchool after logging in.
 eleventyNavigation:
-  key: Data sync
+  key: User data sync
   parent: Authentication
   order: 105
-  title: Data sync
+  title: User data sync
 ---
 
 After authenticating using PowerSchool, data is synchronized to Tidal PTC. The data that is pulled into PowerSchool depends on the user type.

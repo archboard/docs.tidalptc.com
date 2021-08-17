@@ -9,7 +9,7 @@ eleventyNavigation:
   title: Teachers
 ---
 
-Seamless integration with PowerSchool is one of the best features of Tidal PTC. Students, sections, and teachers are all synchronized from PowerSchool to Tidal PTC. It's important to know who qualifies as a teacher so that time slots can be created and reserved in Tidal PTC.
+Seamless [integration with PowerSchool](/configuration/schools/#data-sync-from-powerschool) is one of the best features of Tidal PTC. Students, sections, and teachers are all synchronized from PowerSchool to Tidal PTC. It's important to know who qualifies as a teacher so that time slots can be created and reserved in Tidal PTC.
 
 ## Who's a teacher?
 

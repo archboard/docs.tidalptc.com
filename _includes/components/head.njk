@@ -13,15 +13,14 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#047481">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#014451">
-  <meta name="description" content="<%= (!!locals.description) ? description : site.description %>" />
   <meta property="og:title" content="Tidal PTC" />
-  <meta property="og:description" content="<%= (!!locals.description) ? description : site.description %>" />
-  <meta property="og:locale" content="<%= site.locale %>" />
-  <meta property="og:site_name" content="<%= site.site_name %>" />
+  <meta property="og:description" content="{{ metaDescription or renderData.metaDescription or site.description }}" />
+  <meta property="og:locale" content="{{ site.locale }}" />
+  <meta property="og:site_name" content="{{ site.site_name }}" />
   <meta property="og:image" content="https://tidalptc.com/assets/images/share.png" />
   <meta property="og:image:alt" content="Manage parent-teacher conferences with Tidal PTC" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="<%= (!!locals.description) ? description : site.description %>" />
+  <meta name="twitter:description" content="{{ metaDescription or renderData.metaDescription or site.description }}" />
   <meta name="twitter:title" content="Tidal PTC" />
   <meta name="twitter:site" content="https://tidalptc.com" />
   <meta name="twitter:image" content="https://tidalptc.com/assets/images/share.png" />
